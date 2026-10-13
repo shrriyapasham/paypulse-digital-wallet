@@ -1,0 +1,70 @@
+# ==========================================
+# PayPulse - Digital Wallet System
+# Spring Boot Backend + Angular Frontend
+# ==========================================
+
+# Java compiled files
+*.class
+*.log
+
+# Maven / Spring Boot
+target/
+.mvn/timing.properties
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+
+# Node.js dependencies
+node_modules/
+
+# Angular generated files
+dist/
+.angular/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local Spring Boot configuration
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Java temporary files
+*.tmp
+*.swp
+hs_err_pid*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build and test reports
+surefire-reports/
+test-results/
+
+# Package manager debug logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Generated IDE and build metadata
+bin/
+out/
+build/
+
+# Do not commit private keys or certificates
+*.pem
+*.key
+*.p12
+*.jks
+
+# End of PayPulse .gitignore

@@ -1,0 +1,55 @@
+# PayPulse - Digital Wallet System
+
+# Java and Spring Boot
+*.class
+*.log
+target/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+
+# Node.js and Angular
+node_modules/
+dist/
+.angular/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local Spring Boot configuration
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Temporary files
+*.tmp
+*.swp
+hs_err_pid*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build and test files
+surefire-reports/
+test-results/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.jks
+# Local SQLTools session
+*.session.sql

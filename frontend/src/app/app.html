@@ -1,0 +1,16 @@
+<div class="d-flex flex-column min-vh-100">
+  <!-- Top Navigation Bar when Authenticated -->
+  <app-navbar *ngIf="isAuthenticated"></app-navbar>
+
+  <div class="d-flex flex-grow-1">
+    <!-- Desktop Sidebar when Authenticated -->
+    <div *ngIf="isAuthenticated" class="d-none d-md-block" style="width: 250px; flex-shrink: 0;">
+      <app-sidebar></app-sidebar>
+    </div>
+
+    <!-- Main View Outlet -->
+    <main class="flex-grow-1 bg-light" style="min-height: calc(100vh - 58px); overflow-x: hidden;">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
