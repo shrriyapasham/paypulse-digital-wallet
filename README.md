@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PayPulse - Digital Wallet and Transaction Management System
 
 A full-stack, enterprise-grade, academic BTech CSE project implementing a modern digital wallet with atomic money transfers, simulated payment gateway top-ups, JWT security, and administrative telemetry.
@@ -159,3 +160,7 @@ All accounts share the default password: **`password123`**
 
 ## 🧪 Postman Collection
 Import [`postman_collection.json`](./postman_collection.json) directly into Postman to run pre-configured test suites with automated token capture.
+=======
+# paypulse-digital-wallet
+Digital Wallet and Transaction Management System
+>>>>>>> 2349c4180b8b8b3c14ebdae78c2963d530e5e056
