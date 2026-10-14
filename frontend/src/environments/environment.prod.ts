@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://YOUR-RAILWAY-BACKEND-URL/api'
+  apiUrl: 'https://paypulse-digital-wallet-production.up.railway.app/api'
 };
