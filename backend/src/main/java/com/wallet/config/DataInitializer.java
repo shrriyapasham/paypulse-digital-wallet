@@ -82,7 +82,7 @@ public class DataInitializer implements CommandLineRunner {
 
 
         // =========================================================
-        // USER 1 - RAHUL
+        // USER 1 - SHRRIYA
         // =========================================================
 
         User user1 = userRepository
@@ -91,10 +91,10 @@ public class DataInitializer implements CommandLineRunner {
 
         if (user1 == null) {
 
-            logger.info("Initializing User 1 (Rahul Sharma)...");
+            logger.info("Initializing User 1 (Shrriya)...");
 
             user1 = new User(
-                    "Rahul Sharma",
+                    "Shrriya",
                     "user1@wallet.com",
                     "+919876543210",
                     passwordEncoder.encode("password123"),
